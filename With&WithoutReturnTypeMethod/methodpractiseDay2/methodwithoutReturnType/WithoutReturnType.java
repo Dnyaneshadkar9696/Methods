@@ -23,7 +23,7 @@ public class WithoutReturnType{
 		int b = 8;
 		System.out.print("Addition -"+ (a+b));
 	}
-
+	
 	public void checkEvenOdd() {
 		System.out.println();
 		int a = 7; 
@@ -53,9 +53,6 @@ public class WithoutReturnType{
 			char ds= dd.charAt(i);
 			System.out.println(ds);
 		}
+	}
 
 }
-
-}
-	
-
