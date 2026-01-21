@@ -13,6 +13,10 @@ public class MainDay2 {
 		my.myName();
 		my.numbers();
 		my.checkAddition();
+		my.checkEvenOdd();
+		my.multiplicationTable();
+		my.stringnewLine();
 	}
 
 }
+
