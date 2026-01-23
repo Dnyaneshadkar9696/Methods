@@ -48,6 +48,38 @@ public class Mainday3 {
 		
 		System.out.println();
 		System.out.println("Product of integer is : "+ par.productofInteger(4, 2));
+
+		System.out.println();
+		System.out.println("3) Nonparameterised method without return type.");
+
+		System.out.println();
+		// Object
+		day3.nonparameterisedmethod.WithoutReturnType np = new day3.nonparameterisedmethod.WithoutReturnType();
+		np.number1to10();
+
+		System.out.println();
+		System.out.println();
+		System.out.print("Prime Num : ");
+		np.primeCheck();
+
+		System.out.println();
+		np.tableMul();
+		System.out.println();
+
+		np.evenoddCheck();
+
+		System.out.println();
+
+		// Object
+		day3.nonparameterisedmethod.WithreturnType withrt = new day3.nonparameterisedmethod.WithreturnType();
+		System.out.println("4) Non parameterised method with return Type");
+		System.out.println();
+		System.out.println(withrt.addition());
+		System.out.println(withrt.giveSymbol());
+		System.out.println(withrt.checkAge());
+		System.out.println(withrt.Myname());
+		System.out.println(withrt.NumberMob());
+		System.out.println(withrt.percentageMy());
 		
 		
 		
@@ -57,3 +89,4 @@ public class Mainday3 {
 	}
 
 }
+
